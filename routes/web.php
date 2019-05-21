@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('welcome Luis ve');
+    return view('welcome Luis Velásquez');
 });
