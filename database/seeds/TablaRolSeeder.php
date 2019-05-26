@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Carbon\Carbon;
-factory(Permiso::class)->times(50)->create();
+
 class TablaRolSeeder extends Seeder
 {
     /**
