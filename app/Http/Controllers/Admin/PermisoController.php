@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\admin;
+namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -16,7 +16,7 @@ class PermisoController extends Controller
     public function index()
     {
         $permisos = Permiso::orderBy('id')->get();
-        return view('admin.permiso.index', compact('permisos'));
+        return view('admin.permiso.index', compact('permisos'));    
     }
 
     /**
