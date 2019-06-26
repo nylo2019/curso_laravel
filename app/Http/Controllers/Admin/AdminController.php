@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 
-class InicioController extends Controller
+class AdminController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,13 +14,8 @@ class InicioController extends Controller
      */
     public function index()
     {
-        //dd(auth()->user()->usuario);
-        //dd(session()->all());
-        return view('inicio');
+        return view('admin.admin.index');
     }
 
     
-    
-
-
 }
